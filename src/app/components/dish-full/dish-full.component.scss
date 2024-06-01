@@ -1,0 +1,126 @@
+@import "../../../assets/styles/variables";
+
+.image {
+  width: 100vw;
+  height: 400px;
+  background-size: auto 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+
+  .btn {
+    width: 50px;
+    height: 50px;
+    background-color: $color-white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+}
+
+.dish-container {
+  width: 100vw;
+  min-height: calc(100% - 350px);
+  border-radius: 50px 50px 0 0;
+  background-color: $color-white;
+  position: absolute;
+  margin-top: 350px;
+  padding: $space-xl $space-lg;
+
+  .price {
+    color: $color-main;
+    font-size: 18px;
+    margin-top: $space-md;
+  }
+
+  p {
+    margin-top: $space-md;
+    font-weight: 200;
+  }
+
+  .misc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $color-bg;
+    padding: $space-md;
+    border-radius: 50px;
+    margin-top: $space-lg;
+
+    .misc-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      width: 33.3%;
+
+      .bi {
+        font-size: 25px;
+        color: $color-main;
+      }
+    }
+  }
+
+  .links {
+    margin-top: $space-xl;
+
+    span {
+      color: $color-light-grey;
+      font-weight: 300;
+      padding-bottom: 3px;
+      border-bottom: 3px $color-white solid;
+
+      &:nth-child(2) {
+        margin-left: $space-lg;
+      }
+    }
+
+    .active {
+      color: $color-main;
+      font-weight: 500;
+      border-color: $color-main;
+    }
+  }
+
+  .link-content {
+    margin-top: $space-lg;
+
+    .ingredients {
+
+      .item {
+        width: 100%;
+        display: flex;
+        gap: $space-lg;
+        margin-top: $space-md;
+        justify-content: space-between;
+
+        .item-name {
+          font-weight: 400;
+          flex: 1;
+        }
+
+        .item-qty {
+          font-weight: 400;
+          color: $color-light-grey;
+        }
+
+        img {
+          width: 70px;
+          height: auto;
+          display: block;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .instruction {
+      font-weight: 200;
+    }
+  }
+}

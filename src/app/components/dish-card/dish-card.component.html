@@ -1,0 +1,17 @@
+<div class="dish-card" *ngIf="dish" [routerLink]="'/dish/' + dish.id">
+  <div class="image" [ngStyle]="{ 'background-image': 'url(' + dish.image + ')' }"></div>
+
+  <div class="info">
+    <h3>{{dish.name}}</h3>
+    <span class="description">
+      {{dish.description}}
+    </span>
+    <div class="misc">
+      <i class="bi bi-stopwatch-fill"></i> {{dish.time}} mins
+      <i class="bi bi-star-fill"></i> {{dish.rating}}
+    </div>
+    <div class="price">
+      <i class="bi bi-emoji-kiss"></i> {{dish.price}} kisses
+    </div>
+  </div>
+</div>

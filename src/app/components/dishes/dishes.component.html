@@ -1,0 +1,28 @@
+<div class="main">
+  <header class="header">
+    <div class="logo">
+      <img src="../../../assets/img/unicorn.png" alt="">
+      <h1>Unicorn Havka</h1>
+    </div>
+    <form class="search-bar">
+      <i class="bi bi-search"></i>
+      <input class="form-control" type="search" placeholder="Poisk" aria-label="Search">
+      <button class="btn" type="submit">
+        <i class="bi bi-sliders"></i>
+      </button>
+    </form>
+  </header>
+
+  <div class="sub-header">
+    <div class="num-results">12 Rezultatov</div>
+    <button class="btn">
+      Sort <i class="bi bi-arrow-down-up"></i>
+    </button>
+  </div>
+
+  <div class="dishes">
+    @for (dish of dishes; track dish.id) {
+      <app-dish-card [dish]="dish"></app-dish-card>
+    }
+  </div>
+</div>

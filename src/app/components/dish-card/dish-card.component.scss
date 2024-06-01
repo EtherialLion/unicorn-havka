@@ -1,0 +1,57 @@
+@import "../../../assets/styles/variables";
+
+.dish-card {
+  width: 100%;
+  display: flex;
+  background-color: $color-white;
+  gap: $space-sm;
+  border-radius: 10px;
+  box-shadow: $color-main 0px 1px 2px, #6a82fb 0px 3px 10px -2px, $color-main 0px 4px 4px -4px;
+  cursor: pointer;
+  transition: all .2s ease-out;
+  &:hover {
+    box-shadow: $color-main 0px 1px 4px, #6a82fb 0px 6px 17px -5px, $color-main 0px 8px 16px -8px;
+  }
+
+  .image {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .info {
+    padding: $space-md;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      font-weight: 400;
+    }
+
+    .description {
+      font-weight: 200;
+      color: $color-grey;
+    }
+
+    .misc {
+      font-weight: 300;
+      color: $color-grey;
+      margin-top: $space-sm;
+
+      .bi-star-fill {
+        margin-left: $space-sm;
+      }
+    }
+
+    .price {
+      margin-top: $space-xs;
+      color: $color-main;
+    }
+  }
+
+
+}

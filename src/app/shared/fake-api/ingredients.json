@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "yayco",
+      "image": "https://icdn.lenta.ru/images/2019/01/14/10/20190114105505115/square_320_2f53b2aafd036cda9059233c7ab91d9e.png"
+    },
+    {
+      "id": "2",
+      "name": "moloko",
+      "image": "https://s5.stc.all.kpcdn.net/family/wp-content/uploads/2022/03/moloko-polza-i-vred-960x540.jpg"
+    },
+    {
+      "id": "3",
+      "name": "sol'",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbVg_zKkvfq2my-YBnxFINLyjx6cSrfzq-YpC3j1C-mw&s"
+    },
+    {
+      "id": "4",
+      "name": "maslo",
+      "image": "https://www.openbusiness.ru/upload/iblock/1cb/54f578a16dea4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "hleb",
+      "image": "https://apeti.ru/upload/iblock/06c/63jw654mfxl0xbndftp2ir1n7l102gc7/khleb_seryy_bezdrozhzhevoy.jpg"
+    },
+    {
+      "id": "6",
+      "name": "kofe",
+      "image": "https://zelyevar.ru/wa-data/public/shop/products/85/64/16485/images/29689/29689.970.jpg"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Omlet",
+      "image": "https://images.unian.net/photos/2020_09/thumb_files/1200_0_1600367863-5570.jpg",
+      "description": "Nezhniy zavtrak",
+      "time": 15,
+      "rating": 4,
+      "price": 1,
+      "calories": 150,
+      "ingredients": [
+        { "id": "1", "qty": "2" },
+        { "id": "2", "qty": "50 ml" },
+        { "id": "3", "qty": "1 tsp" }
+      ],
+      "instructions": "Razbyt', zalyt' moloko, posolit', zazharit'."
+    },
+    {
+      "id": "2",
+      "name": "Tost",
+      "image": "https://cdn.yemek.com/mnresize/5406/3602/uploads/2023/11/kasarli-tost-sunum-yemekcom.jpg",
+      "description": "Suhoy zavtrak",
+      "time": 5,
+      "rating": 2,
+      "price": 0.5,
+      "calories": 50,
+      "ingredients": [
+        { "id": "5", "qty": "2" },
+        { "id": "4", "qty": "10ml" }
+      ],
+      "instructions": "Porezat' hleb, namazat' maslom"
+    },
+    {
+      "id": "3",
+      "name": "Kofe s molokom",
+      "image": "https://s1.eda.ru/StaticContent/Photos/120131085552/120214123722/p_O.jpg",
+      "description": "Slabitelniy zavtrak",
+      "time": 10,
+      "rating": 3,
+      "price": 2,
+      "calories": 100,
+      "ingredients": [
+        { "id": "6", "qty": "40g" },
+        { "id": "2", "qty": "20ml" }
+      ],
+      "instructions": "Svarit' kofe, dobavit' moloko"
+    }
+  ]
+}
